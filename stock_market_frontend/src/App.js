@@ -1,11 +1,19 @@
 import React from 'react'
+import './CSS/main.css'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import StyleGuide from './StyleGuide';
+import './CSS/StyleGuide.css'
+import './CSS/main.css'
 
-const App = () => {
+function App() {
   return (
-    <div>
-        <h1>Here begins a new journey.</h1>
-    </div>
-  )
+    <Router>
+      <Routes>
+        
+        <Route path="/design" element={<StyleGuide/>}/>
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;

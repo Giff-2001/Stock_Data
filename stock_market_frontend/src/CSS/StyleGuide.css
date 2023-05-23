@@ -1,0 +1,23 @@
+#design-main-container {
+    width: 90%;
+    min-height: 50em;
+    margin: auto;
+    background-color: rgba(104, 101, 101, 0.068);
+}
+
+#design-main-container h3[class*="ff"] {
+    margin: 20px;
+    font-size: var(--fs-500);
+}
+
+#design-main-container .color {
+    width: 80%;
+    height: 3rem;
+    margin: 10px auto;
+    font-size: var(--fs-500);
+}
+
+#design-main-container .color > p {
+    padding: 0px 0px 0px 10px;
+    color: rgb(240, 221, 221);
+}
